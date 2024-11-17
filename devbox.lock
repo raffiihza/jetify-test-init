@@ -1,0 +1,283 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "apache@latest": {
+      "last_modified": "2024-11-07T05:50:23Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/85f7e662eda4fa3a995556527c87b2524b691933#apacheHttpd",
+      "source": "devbox-search",
+      "version": "2.4.62",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yimay6lmskkgs7j2flwj3jj2mfg4w0i3-apache-httpd-2.4.62",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/rqb7nmx2b0fpx2qrm3f9d6zj8dbs4bd2-apache-httpd-2.4.62-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/xd9fvx9ynhgc0jcm2h9gkczxfa8djvzg-apache-httpd-2.4.62-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/ingw2pskkhwmvlzcjpiv3ssh466c1jnr-apache-httpd-2.4.62-doc"
+            }
+          ],
+          "store_path": "/nix/store/yimay6lmskkgs7j2flwj3jj2mfg4w0i3-apache-httpd-2.4.62"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w6fsr9vg4knggp10kyqvdcsz69hhpnqq-apache-httpd-2.4.62",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/5l710bz791v0a12q2m7jy9jq60axs6y0-apache-httpd-2.4.62-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/mir64fxc0yp5m456fs7cq49siq7vhin9-apache-httpd-2.4.62-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/iawgj7ggcijyw7kfidxr4jljkb7h5hr3-apache-httpd-2.4.62-doc"
+            }
+          ],
+          "store_path": "/nix/store/w6fsr9vg4knggp10kyqvdcsz69hhpnqq-apache-httpd-2.4.62"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5346nmw4yz2cfqcwvhsi6z574igplx5r-apache-httpd-2.4.62",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/n795j1pk0lwcw157nrc22j4bb6ynia2g-apache-httpd-2.4.62-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/72k5pzhsmn10ig5azlblcfr1ilmimcvg-apache-httpd-2.4.62-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/n521raqxhxmmji760b54xhkzlsyarnri-apache-httpd-2.4.62-doc"
+            }
+          ],
+          "store_path": "/nix/store/5346nmw4yz2cfqcwvhsi6z574igplx5r-apache-httpd-2.4.62"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4fx4qvq7gl0nxrfqy1gi4wn2ksqjrgpd-apache-httpd-2.4.62",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/c7sp4idfqmif5gpwajjny9dh1n98ynlb-apache-httpd-2.4.62-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/zv4s0vl944s97z469s38qb2vkdy9f0md-apache-httpd-2.4.62-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/0lgd4q6pbaz96jr2974jzihd4zzzhnz5-apache-httpd-2.4.62-doc"
+            }
+          ],
+          "store_path": "/nix/store/4fx4qvq7gl0nxrfqy1gi4wn2ksqjrgpd-apache-httpd-2.4.62"
+        }
+      }
+    },
+    "mysql80@latest": {
+      "last_modified": "2024-11-03T14:18:04Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/4ae2e647537bcdbb82265469442713d066675275#mysql80",
+      "source": "devbox-search",
+      "version": "8.0.39",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7c6glkkpxn90gdm7i46rm6mf9jb9ag3g-mysql-8.0.39",
+              "default": true
+            },
+            {
+              "name": "static",
+              "path": "/nix/store/ax8h6ls6jfmag9sqa5yx6xiqyy755p69-mysql-8.0.39-static"
+            }
+          ],
+          "store_path": "/nix/store/7c6glkkpxn90gdm7i46rm6mf9jb9ag3g-mysql-8.0.39"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1dzw6rk49hp38r339ln9mlhf3r5wayc3-mysql-8.0.39",
+              "default": true
+            },
+            {
+              "name": "static",
+              "path": "/nix/store/qa0bjxwfqhv2lm97l77f3bxbv9r7pzpm-mysql-8.0.39-static"
+            }
+          ],
+          "store_path": "/nix/store/1dzw6rk49hp38r339ln9mlhf3r5wayc3-mysql-8.0.39"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cvk1jr2326gkdhp9lwavv7b8y0s990l7-mysql-8.0.39",
+              "default": true
+            },
+            {
+              "name": "static",
+              "path": "/nix/store/vjzdc8zmvxyk1vzndlj00s0bq0x4srmv-mysql-8.0.39-static"
+            }
+          ],
+          "store_path": "/nix/store/cvk1jr2326gkdhp9lwavv7b8y0s990l7-mysql-8.0.39"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6qxayf8x87wk5hadyqm5i5grzb9nglx5-mysql-8.0.39",
+              "default": true
+            },
+            {
+              "name": "static",
+              "path": "/nix/store/gqidwrwnlxs2j964rfpcd2ccdbmhx7bq-mysql-8.0.39-static"
+            }
+          ],
+          "store_path": "/nix/store/6qxayf8x87wk5hadyqm5i5grzb9nglx5-mysql-8.0.39"
+        }
+      }
+    },
+    "php83Extensions.mysqli@latest": {
+      "last_modified": "2024-11-03T14:18:04Z",
+      "resolved": "github:NixOS/nixpkgs/4ae2e647537bcdbb82265469442713d066675275#php83Extensions.mysqli",
+      "source": "devbox-search",
+      "version": "8.3.12",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5ii2qkp30yplz7csqyaxbx7i9f49hhn9-php-mysqli-8.3.12",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/k09jdankbxijxh8rdf5fx7qilgcgvni2-php-mysqli-8.3.12-dev"
+            }
+          ],
+          "store_path": "/nix/store/5ii2qkp30yplz7csqyaxbx7i9f49hhn9-php-mysqli-8.3.12"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8xrkh0b5xakd4d04gag7x6f1cxrf5wpi-php-mysqli-8.3.12",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/hq01za45h87qacxd1fgbmzp58l80y7b5-php-mysqli-8.3.12-dev"
+            }
+          ],
+          "store_path": "/nix/store/8xrkh0b5xakd4d04gag7x6f1cxrf5wpi-php-mysqli-8.3.12"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mrgjgcvdziwvnkkr7b6965yg21m178cj-php-mysqli-8.3.12",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/jm7kdwax5g66lf1x2j6z745m5dqkaj4h-php-mysqli-8.3.12-dev"
+            }
+          ],
+          "store_path": "/nix/store/mrgjgcvdziwvnkkr7b6965yg21m178cj-php-mysqli-8.3.12"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bixhd70zwh24fm67rg6nci0zgh6xrv98-php-mysqli-8.3.12",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/1mcmkzyrfz0lnb8slcdfcjc1jkki0bnh-php-mysqli-8.3.12-dev"
+            }
+          ],
+          "store_path": "/nix/store/bixhd70zwh24fm67rg6nci0zgh6xrv98-php-mysqli-8.3.12"
+        }
+      }
+    },
+    "php83Packages.composer@latest": {
+      "last_modified": "2024-11-04T15:55:45Z",
+      "resolved": "github:NixOS/nixpkgs/a61cd8ff1b45f760bdf142914d517e0ccd31ffed#php83Packages.composer",
+      "source": "devbox-search",
+      "version": "2.8.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/18b8bl5z2f8s5rxr9qv33kdj0ibzlpiw-composer-2.8.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/18b8bl5z2f8s5rxr9qv33kdj0ibzlpiw-composer-2.8.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/czmzvnzdsjchql632hxknvdy8mjfw42y-composer-2.8.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/czmzvnzdsjchql632hxknvdy8mjfw42y-composer-2.8.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6psqzi80ypp694n876bqmsp5hi4rdy8k-composer-2.8.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6psqzi80ypp694n876bqmsp5hi4rdy8k-composer-2.8.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zpaz2n8mccgjz6jifa8xanj03p2pmr36-composer-2.8.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zpaz2n8mccgjz6jifa8xanj03p2pmr36-composer-2.8.1"
+        }
+      }
+    }
+  }
+}
