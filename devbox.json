@@ -3,7 +3,7 @@
   "packages": [
     "php83Packages.composer@latest",
     "php83Extensions.mysqli@latest",
-    "mysql@latest"
+    "mysql80@latest"
   ],
   "shell": {
     "init_hook": [
