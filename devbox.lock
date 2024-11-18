@@ -1,6 +1,13 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "mysql@latest": {
+      "last_modified": "2023-02-24T09:01:09Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/7d0ed7f2e5aea07ab22ccb338d27fbe347ed2f11#mysql",
+      "source": "devbox-search",
+      "version": "10.6.12"
+    },
     "php83Extensions.mysqli@latest": {
       "last_modified": "2024-11-03T14:18:04Z",
       "resolved": "github:NixOS/nixpkgs/4ae2e647537bcdbb82265469442713d066675275#php83Extensions.mysqli",
