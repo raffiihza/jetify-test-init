@@ -1,3 +1,4 @@
+chmod -R 777 modul5/storage > /dev/null 2>&1
 sudo docker-compose down
 sudo docker-compose up -d
 echo "Apache Web server, MySQL, and PHPMyAdmin is running!"
