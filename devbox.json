@@ -3,7 +3,6 @@
   "packages": [
     "php83Packages.composer@latest",
     "apache@latest",
-    "mysql80@latest",
     "php83Extensions.mysqli@latest"
   ],
   "shell": {
