@@ -2,7 +2,6 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.6/.schema/devbox.schema.json",
   "packages": [
     "php83Packages.composer@latest",
-    "apache@latest",
     "php83Extensions.mysqli@latest"
   ],
   "shell": {

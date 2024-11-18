@@ -8,6 +8,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' *.bootstrapcdn.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praktikum WAD</title>
     <!-- Bootstrap CDN -->
@@ -27,7 +28,7 @@
             <a href="modul2/" class="btn btn-primary btn-lg">Modul 2</a>
             <a href="modul3/" class="btn btn-primary btn-lg">Modul 3</a>
             <a href="modul4/" class="btn btn-primary btn-lg">Modul 4</a>
-            <a href="modul5/public/" class="btn btn-primary btn-lg">Modul 5</a>
+            <a href="modul5/public/index.php" class="btn btn-primary btn-lg">Modul 5</a>
         </div>
     </div>
 
