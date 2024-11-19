@@ -2,12 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.6/.schema/devbox.schema.json",
   "packages": [
     "php83Packages.composer@latest",
-    "php83Extensions.mysqli@latest",
-    "mysql80@latest"
+    "php83Extensions.mysqli@latest"
   ],
   "shell": {
     "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
+      "echo 'Welcome to Praktikum WAD!'"
     ],
     "scripts": {
       "test": [
