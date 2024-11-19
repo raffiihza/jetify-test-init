@@ -30,7 +30,7 @@ chmod -R 777 modul5/storage > /dev/null 2>&1
 
 echo "Apache Web server, MySQL, and PHPMyAdmin is running!"
 echo "You can access the web server by click Preview button and use 8080 port."
-echo "For MySQL connection, use server host 'db', username 'root' and password 'root'."
+echo "For MySQL connection, use server host 'localhost', username 'root' and no password."
 echo "To access terminal, create new terminal."
 echo "To stop the web server, close this terminal."
 sudo php -S localhost:8080 &
