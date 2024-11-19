@@ -34,4 +34,4 @@ echo "For MySQL connection, use server host 'db', username 'root' and password '
 echo "To access terminal, create new terminal."
 echo "To stop the web server, close this terminal."
 sudo php -S localhost:8080 &
-sudo mysqld &
+sudo mysqld
