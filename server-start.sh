@@ -32,6 +32,6 @@ echo "Apache Web server, MySQL, and PHPMyAdmin is running!"
 echo "You can access the web server by click Preview button and use 8080 port."
 echo "For MySQL connection, use server host 'localhost', username 'root' and no password."
 echo "To access terminal, create new terminal."
-echo "To stop the web server, close this terminal."
+echo "To stop the web server, create a new terminal and use command 'bash server-stop.sh'."
 sudo php -S localhost:8080 &
 sudo mysqld
