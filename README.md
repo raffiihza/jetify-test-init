@@ -7,7 +7,7 @@ Selamat mengerjakan!
 2. Segala perubahan code dilakukan di codespaces lalu commit, jangan diubah di repo github-nya langsung agar tidak terjadi error/conflict.
 3. Jika ada error pada codespace dan FAQ, bisa cek pada FAQ di bawah atau tanyakan ke asisten praktikum yang bertugas.
 4. Jangan melakukan pekerjaan lain ataupun merubah file konfigurasi di repo github ini dan codespaces di luar praktikum dan/atau di luar intruksi asisten praktikum.
-5. Jika ingin menggunakan database MySQL lokal codespace, gunakan server host `db`, username `root`, dan password `root`
+5. Jika ingin menggunakan database MySQL lokal codespace, gunakan server host `localhost`, username `root`, dan password kosong
 
 ## Cara Penggunaan Codespaces
 
@@ -36,7 +36,7 @@ Selamat mengerjakan!
 3. Tunggu hingga loading selesai (sampai keluar halaman atau keluar error)
 4. Jika tidak ada error terjadi, maka akan disuguhi halaman login PHPMyAdmin jika masih pertama kali membukanya setelah building codespace
 5. `Lewati step ini jika ingin menggunakan database MySQL lokal codespace.` Jika ingin menggunakan database eksternal seperti Aiven atau layanan lainnya, isikan server host, username, dan password dari yang tertera pada website dashboard Aiven
-6. Jika ingin menggunakan database MySQL lokal codespace, isikan server host dengan `db`, username `root`, dan password `root`
+6. Jika ingin menggunakan database MySQL lokal codespace, isikan server host dengan `localhost`, username `root`, dan password kosong
 7. Jika login berhasil, maka dashboard PHPMyAdmin akan keluar
 
 ### Mengupload file dan folder ke codespaces
@@ -64,8 +64,8 @@ Selamat mengerjakan!
 2. Di terminal, masuk ke folder modul 5 dengan command `cd modul5`
 3. Ketik command `composer install` untuk meng-install dependencies proyek Laravel tersebut
 4. Ketik command `cp .env.example .env` dan file .env akan terbuat, edit file tersebut dan masukkan kredensial database kalian (jangan lupa `DB_CONNECTION` diganti value-nya menjadi mysql)
-5. Ketik command `php artisan key:generate` untuk generate key
-6. Ketik command `php artisan migrate` untuk memasukkan data dari proyek ke database Aiven
+5. Ketik command `sudo php artisan key:generate` untuk generate key
+6. Ketik command `sudo php artisan migrate` untuk memasukkan data dari proyek ke database Aiven
 7. Untuk melihat hasil pengerjaan, buka webpage hasil pengerjaan pada port `80` dan tekan pilihan modul 5
 8. Jika terminal diperlukan untuk kembali ke folder utama, ketik command `cd ..`
 
@@ -112,8 +112,8 @@ Selamat mengerjakan!
 **A:** Kemungkinan masalahnya adalah:
 1. Cek FAQ bagian database dan pastikan tidak ada error terlebih dahulu
 2. Jika dependencies Laravel belum ter-install, ketik command `composer install` di direktori modul 5
-3. Jika error terkait key, generate key dengan command `php artisan key:generate` di direktori modul 5
-4. Jika error terkait database yang belum ter-import, ketik command `php artisan migrate` di direktori modul 5
+3. Jika error terkait key, generate key dengan command `sudo php artisan key:generate` di direktori modul 5
+4. Jika error terkait database yang belum ter-import, ketik command `sudo php artisan migrate` di direktori modul 5
 5. Jika error terkait link redirection ataupun route, gunakan path relatif untuk menghindari URL route yang tidak sesuai dengan web server dan pastikan trust proxies dibuka untuk semua proxy (untuk caranya tergantung pada versi Laravel yang digunakan, silahkan tanya asisten praktikum untuk memastikan)
 6. Untuk error lainnya, bisa ditanyakan ke asisten praktikum
 
