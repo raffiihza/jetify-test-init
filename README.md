@@ -7,7 +7,8 @@ Selamat mengerjakan!
 2. Segala perubahan code dilakukan di codespaces lalu commit, jangan diubah di repo github-nya langsung agar tidak terjadi error/conflict.
 3. Jika ada error pada codespace dan FAQ, bisa cek pada FAQ di bawah atau tanyakan ke asisten praktikum yang bertugas.
 4. Jangan melakukan pekerjaan lain ataupun merubah file konfigurasi di repo github ini dan codespaces di luar praktikum dan/atau di luar intruksi asisten praktikum.
-5. Jika ingin menggunakan database MySQL lokal codespace, gunakan server host `localhost`, username `root`, dan password kosong
+5. Jika ingin menggunakan database MySQL lokal codespace, gunakan server host `localhost`, username `root`, dan password kosong.
+6. Terkhusus untuk penggunaan Jetify, jalankan `server-init.sh` setelah build pertama kali agar semua library dan dependency terinstal secara sempurna.
 
 ## Cara Penggunaan Codespaces
 
@@ -24,14 +25,14 @@ Selamat mengerjakan!
 
 ### Melihat hasil pekerjaan di web browser (dengan menjalankan Apache web server)
 1. Pada terminal di bawah, ketik command `bash server-start.sh` dan tekan enter untuk menjalankan web server Apache
-2. Buka tab Ports sebelah kanan tab Terminal, lalu letakkan mouse di atas port `80`, tekan tombol ikon globe/browser pada port `80` tersebut, dan halaman baru akan terbuka
+2. Buka tab Ports sebelah kanan tab Terminal, lalu letakkan mouse di atas port `8080`, tekan tombol ikon globe/browser pada port `8080` tersebut, dan halaman baru akan terbuka
 3. Tunggu hingga loading selesai (sampai keluar halaman atau keluar error)
 4. Jika tidak ada error terjadi, maka akan disuguhi halaman pemilihan modul, pilih modul yang ingin dilihat pekerjaannya
 5. Jika ada perubahan code, tinggal refresh saja halaman baru tadi
-6. Jika halaman baru tertutup, tinggal buka tab Ports lagi dan tekan tombol globe/browser di port `80` lagi tanpa perlu mengulang membuka terminal
+6. Jika halaman baru tertutup, tinggal buka tab Ports lagi dan tekan tombol globe/browser di port `8080` lagi tanpa perlu mengulang membuka terminal
 
 ### Mengelola database menggunakan PHPMyAdmin
-1. Pastikan web server Apache pada langkah sebelumnya telah dilaksanakan dan membuka webpage dari port `80`
+1. Pastikan web server Apache pada langkah sebelumnya telah dilaksanakan dan membuka webpage dari port `8080`
 2. Tekan tombol PHPMyAdmin pada dashboard index
 3. Tunggu hingga loading selesai (sampai keluar halaman atau keluar error)
 4. Jika tidak ada error terjadi, maka akan disuguhi halaman login PHPMyAdmin jika masih pertama kali membukanya setelah building codespace
@@ -66,7 +67,7 @@ Selamat mengerjakan!
 4. Ketik command `cp .env.example .env` dan file .env akan terbuat, edit file tersebut dan masukkan kredensial database kalian (jangan lupa `DB_CONNECTION` diganti value-nya menjadi mysql)
 5. Ketik command `sudo php artisan key:generate` untuk generate key
 6. Ketik command `sudo php artisan migrate` untuk memasukkan data dari proyek ke database Aiven
-7. Untuk melihat hasil pengerjaan, buka webpage hasil pengerjaan pada port `80` dan tekan pilihan modul 5
+7. Untuk melihat hasil pengerjaan, buka webpage hasil pengerjaan pada port `8080` dan tekan pilihan modul 5
 8. Jika terminal diperlukan untuk kembali ke folder utama, ketik command `cd ..`
 
 ## FAQ Troubleshooting (lihat sebelum tanya ke asisten praktikum)
@@ -82,7 +83,7 @@ Selamat mengerjakan!
 ---
 
 **Q: Tidak bisa melihat webpage hasil pengerjaan di web browser, error 401 atau 502**  
-**A:** Jalankan kembali command `bash server-start.sh` lalu tunggu beberapa saat dan buka kembali webpage hasil pengerjaan dengan menekan tombol ikon globe pada port `80`
+**A:** Jalankan kembali command `bash server-start.sh` lalu tunggu beberapa saat dan buka kembali webpage hasil pengerjaan dengan menekan tombol ikon globe pada port `8080`
 
 ---
 
@@ -116,6 +117,7 @@ Selamat mengerjakan!
 4. Jika error terkait database yang belum ter-import, ketik command `sudo php artisan migrate` di direktori modul 5
 5. Jika error terkait link redirection ataupun route, gunakan path relatif untuk menghindari URL route yang tidak sesuai dengan web server dan pastikan trust proxies dibuka untuk semua proxy (untuk caranya tergantung pada versi Laravel yang digunakan, silahkan tanya asisten praktikum untuk memastikan)
 6. Untuk error lainnya, bisa ditanyakan ke asisten praktikum
+7. Untuk melihat hasil pengerjaan, buka webpage hasil pengerjaan pada port `8080` dan tekan pilihan modul 5
 
 ---
 
